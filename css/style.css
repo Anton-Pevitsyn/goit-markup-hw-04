@@ -28,7 +28,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .link {
   font-style: normal;
@@ -131,6 +131,9 @@ body {
   color: var(--accent-color);
 }
 
+#activ-link {
+  color: var(--accent-color);
+}
 /*header style*/
 
 /*title sekton style*/
@@ -138,7 +141,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   height: 600px;
-  max-width: 1600px;
+
   margin-left: auto;
   margin-right: auto;
   background-color: var(--background-section-color);
@@ -148,9 +151,9 @@ body {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../img/background-hero.jpg");
+    url('../img/background-hero.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .meam-title {
